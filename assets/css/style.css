@@ -1,0 +1,165 @@
+html,
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -200;
+  background-color: whitesmoke;
+}
+
+.jumbotron{
+    position: relative;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+.logo{
+    position: relative;
+    z-index: 10;
+}
+
+.heading-underline{
+	width: 5rem;
+	height:.3rem;
+	background-color: #C87D54;
+	margin: 0 auto 2rem;
+}
+
+#bgtop{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index:1;
+  }
+
+#bgbottom{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index:1;
+  }
+
+
+.footer {
+    height: 50px;
+    background-color:  #0b0c10;
+    padding: 1rem;
+    color: #c5c6c7;
+}
+
+.fit-image{
+    width: 2rem;
+    object-fit: cover;
+}
+
+.footer-text{
+    padding-top: 50%;
+}
+
+
+.main-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #afd275;
+}
+
+p{
+    color: #0b0c10;
+}
+
+.nav-item{
+    font-size:30px;
+    font-weight: bold;
+    color: #c5c6c7;
+    margin-left: 5%;
+}
+
+.navbar-toggler{
+    margin-left: 5%;
+    background-color: lightgray;   
+    
+}
+
+
+
+
+.main-content{
+    position: relative;
+    padding: 2rem;
+    background-color: whitesmoke !important;
+    z-index: 105 !important;
+}
+
+.carousel{
+    padding:0.2rem;
+    margin: 2%;
+}
+
+
+.row{
+    width: 100% !important;
+}
+
+.home .row .col-md-8 .main-content .aboutus #about .text-center {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+    color: #C87D54;
+}
+.home .row .col-md-8 .main-content .blog .text-center {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+    color: #C87D54;
+}
+.home .row .col-md-8 .main-content .aboutus #about .main-text strong {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+.home .row .col-md-8 .main-content .blog #blog_post_1 h2 {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.home .row .col-md-8 .main-content .blog #blog_post_1 p {
+    font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+p{
+    font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+
+
+  @media(max-width:992px) {
+  .navbar-col{
+      padding-top: 0%;
+  }
+  .nav-item{
+    font-size:20px;
+}
+  
+  }
+
+  @media(max-width:768px) {
+    .navbar-col{
+        padding-top: 0%;
+    }
+
+    .nav-item{
+        font-size:20px;
+    }
+    .menu-dropdown{
+        margin-left: 5%;
+        background-color: lightgray;
+    }
+    
+    }
+  
+  
+  @media(max-width:600px) {
+    .navbar-col{
+        padding-top: 0%;
+    }
+
+    .nav-item{
+        font-size:20px;
+    }
+  }
